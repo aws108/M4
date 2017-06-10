@@ -1,0 +1,123 @@
+<euskadi>
+	<row num="1">	
+		<territory territorycode="20">GIPUZKOA
+			<name>
+				<description>Selección de quesos artesanos, hongos, setas</description>
+				<buy tipo="Embutidos">Aitor Lasa Gaztategia</buy>
+				<phonenumber>943 430 354</phonenumber>
+				<web>http://www.aitorlasa.com</web>
+				<templatetype>Tiendas</templatetype>
+			</name>
+			<marks localizacion="Costa Vasca">
+				<municipality>DONOSTIA / SAN SEBASTIÁN</municipality>
+				<municipalitycode>200069</municipalitycode>
+			</marks>
+		</territory>
+		<country territorycode="34">España</country>
+	</row>
+	<row num="2">
+		<territory territorycode="20">GIPUZKOA
+			<name>
+				<buy tipo="Postres">Amona María</buy>
+				<phonenumber>943 100 405</phonenumber>
+				<web>http://www.amonamaria.com</web>
+				<templatetype>Tiendas</templatetype>
+			</name>
+			<marks localizacion="Costa Vasca">
+				<municipality>GETARIA</municipality>
+				<municipalitycode>200039</municipalitycode>
+			</marks>
+		</territory>
+		<country territorycode="34">España</country>
+	</row>
+	<row num="3">
+		<territory territorycode="20">GIPUZKOA
+			<name>
+				<description>El Basque Culinary Center, Facultad de Ciencias Gastronómicas de Mondragon Unibertsitatea</description>
+				<buy tipo="Enoteca">Basque Culinary Center</buy>
+				<phonenumber>902 540 866</phonenumber>
+				<web>http://www.bculinary.com</web>
+				<templatetype>Universidad</templatetype>
+			</name>
+			<marks localizacion="Costa Vasca">
+				<municipality>DONOSTIA / SAN SEBASTIÁN</municipality>
+				<municipalitycode>200069</municipalitycode>
+			</marks>
+		</territory>
+		<country territorycode="34">España</country>
+	</row>
+	<row num="4">
+		<territory territorycode="48">BIZKAIA
+			<name>
+				<buy tipo="Embutidos">Charcuteria Prost</buy>
+				<phonenumber>944 602 297</phonenumber>
+				<templatetype>Tiendas</templatetype>
+			</name>
+			<marks localizacion="Costa Vasca">
+				<municipality>GETXO</municipality>
+				<municipalitycode>480044</municipalitycode>
+			</marks>
+		</territory>
+		<country territorycode="34">España</country>
+	</row>
+	<row num="5">
+		<territory territorycode="20">GIPUZKOA
+			<name>
+				<buy tipo="Postres">Chocolates de Mendaro-Saint Gerons</buy>
+				<phonenumber>943 755 115</phonenumber>
+				<web>www.chocolatesdemendaro.com</web>
+				<templatetype>Tiendas</templatetype>
+			</name>
+			<marks localizacion="Montes y Valles vascos">
+				<municipality>MENDARO</municipality>
+				<municipalitycode>200901</municipalitycode>
+			</marks>
+		</territory>
+		<country territorycode="34">España</country>
+	</row>
+	<row num="6">
+		<territory territorycode="01">ALAVA
+			<name>
+				<buy tipo="Postres">Conservas Artesanas Victofer</buy>
+				<phonenumber>945 255 305</phonenumber>
+				<web>http://www.victofer.com</web>
+				<templatetype>Tiendas</templatetype>
+			</name>
+			<marks localizacion="Vitoria-Gasteiz">
+				<municipality>VITORIA-GASTEIZ</municipality>
+				<municipalitycode>010059</municipalitycode>
+			</marks>
+		</territory>
+		<country territorycode="34">España</country>
+	</row>
+	<row num="7">	
+		<territory territorycode="01">ALAVA
+			<name>
+				<buy tipo="Postres">Delicatessen La Blanca</buy>
+				<phonenumber>945 250 494</phonenumber>
+				<web>http://www.delicatessenlablanca.com</web>
+				<templatetype>Tiendas</templatetype>
+			</name>
+			<marks localizacion="Vitoria-Gasteiz">
+				<municipality>VITORIA-GASTEIZ</municipality>
+				<municipalitycode>010059</municipalitycode>
+			</marks>
+		</territory>
+		<country territorycode="34">España</country>
+	</row>
+	<row num="8">
+		<territory territorycode="48">BIZKAIA
+			<name>
+				<buy tipo="Embutidos">Exquissitum Gourmet</buy>
+				<phonenumber>661 548 854</phonenumber>
+				<web>http://www.exquissitum.com</web>
+				<templatetype>Tiendas</templatetype>
+			</name>
+			<marks localizacion="Costa Vasca">
+				<municipality>GETXO</municipality>
+				<municipalitycode>480044</municipalitycode>
+			</marks>
+		</territory>	
+		<country territorycode="34">España</country>	
+	</row>
+</euskadi>

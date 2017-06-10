@@ -1,0 +1,19 @@
+cat /classe/alumnes/alumne
+
+cat /classe/professors/professor/nom
+
+cat /classe/alumnes/alumne/nom | /classe/professors/professor/cognom
+
+cat /classe/alumnes/alumne[2]/nom
+
+cat /classe/alumnes/alumne[1]/nota | /classe/alumnes/alumne[last()]/nota
+
+cat /classe/alumnes/alumne[position()<=3]/nota/text()
+
+cat /classe/alumnes/alumne[@delegat="si"]/nom
+
+cat /classe/alumnes/alumne[@aprovat="si"]/cognom
+
+cat /classe/alumnes/alumne[@aprovat="si"] [position()=2]/nota
+
+cat /classe/alumnes/alumne[@delegat="si"]/@aprovat

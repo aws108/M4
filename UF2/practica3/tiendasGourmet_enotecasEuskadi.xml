@@ -1,0 +1,99 @@
+<euskadi>
+	<row num="1">
+		<name>Aitor Lasa Gaztategia</name>
+		<description>Selección de quesos artesanos, hongos, setas</description>
+		<buytype>Embutido</buytype>
+		<territory territorycode="20">GIPUZKOA</territory>
+		<marks>Costa Vasca</marks>
+		<municipality>DONOSTIA / SAN SEBASTIÁN</municipality>
+		<municipalitycode>200069</municipalitycode>
+		<phonenumber>943 430 354</phonenumber>
+		<templatetype>Tiendas</templatetype>
+		<web>http://www.aitorlasa.com</web>
+		<country>España</country>
+	</row>
+	<row num="2">
+		<name>Amona María</name>
+		<buytype>Postres</buytype>
+		<territory territorycode="20">GIPUZKOA</territory>
+		<marks>Costa Vasca</marks>
+		<municipality>GETARIA</municipality>
+		<municipalitycode>200039</municipalitycode>
+		<phonenumber>943 100 405</phonenumber>
+		<templatetype>Tiendas</templatetype>
+		<web>http://www.amonamaria.com</web>
+		<country>España</country>
+	</row>
+	<row num="3">
+		<name>Basque Culinary Center</name>
+		<description>El Basque Culinary Center, Facultad de Ciencias Gastronómicas de Mondragon Unibertsitatea</description>
+		<buytype>Enoteca</buytype>
+		<territory territorycode="20">GIPUZKOA</territory>
+		<marks>Costa Vasca</marks>
+		<municipality>DONOSTIA / SAN SEBASTIÁN</municipality>
+		<municipalitycode>200069</municipalitycode>
+		<phonenumber>902 540 866</phonenumber>
+		<templatetype>Restaurantes</templatetype>
+		<web>http://www.bculinary.com</web>
+		<country>España</country>
+	</row>
+	<row num="4">
+		<name>Charcuteria Prost</name>
+		<buytype>Embutido</buytype>
+		<territory territorycode="48">BIZKAIA</territory>
+		<marks>Costa Vasca</marks>
+		<municipality>GETXO</municipality>
+		<municipalitycode>480044</municipalitycode>
+		<phonenumber>944 602 297</phonenumber>
+		<templatetype>Tiendas</templatetype>
+		<country>España</country>
+	</row>
+	<row num="5">
+		<name>Chocolates de Mendaro-Saint Gerons</name>
+		<buytype>Postres</buytype>
+		<territory territorycode="20">GIPUZKOA</territory>
+		<marks>Montes y Valles vascos</marks>
+		<municipality>MENDARO</municipality>
+		<municipalitycode>200901</municipalitycode>
+		<phonenumber>943 755 115</phonenumber>
+		<templatetype>Tiendas</templatetype>
+		<web>www.chocolatesdemendaro.com</web>
+		<country>España</country>
+	</row>
+	<row num="6">
+		<name>Conservas Artesanas Victofer</name>
+		<buytype>Alimentacion</buytype>
+		<territory territorycode="01">ALAVA</territory>
+		<marks>Vitoria-Gasteiz</marks>
+		<municipality>VITORIA-GASTEIZ</municipality>
+		<municipalitycode>010059</municipalitycode>
+		<phonenumber>945 255 305</phonenumber>
+		<templatetype>Tiendas</templatetype>
+		<web>http://www.victofer.com</web>
+		<country>España</country>
+	</row>
+	<row num="7">
+		<name>Delicatessen La Blanca</name>
+		<buytype>Postres</buytype>
+		<territory territorycode="01">ALAVA</territory>
+		<marks>Vitoria-Gasteiz</marks>
+		<municipality>VITORIA-GASTEIZ</municipality>
+		<municipalitycode>010059</municipalitycode>
+		<phonenumber>945 250 494</phonenumber>
+		<templatetype>Tiendas</templatetype>
+		<web>http://www.delicatessenlablanca.com</web>
+		<country>España</country>
+	</row>
+	<row num="8">
+		<name>Exquissitum Gourmet</name>
+		<buytype>Postres</buytype>
+		<territory territorycode="48">BIZKAIA</territory>
+		<marks>Costa Vasca</marks>
+		<municipality>GETXO</municipality>
+		<municipalitycode>480044</municipalitycode>
+		<phonenumber>661 548 854</phonenumber>
+		<templatetype>Tiendas</templatetype>
+		<web>http://www.exquissitum.com</web>
+		<country>España</country>
+	</row>
+</euskadi>

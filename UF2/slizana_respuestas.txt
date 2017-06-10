@@ -1,0 +1,77 @@
+--Ejercicio 1
+xquery version "1.0";
+
+<div>
+{
+	let $a := 10
+	let $b := 2
+	
+	return $a idiv $b
+}
+</div>
+
+--Ejercicio 2
+xquery version "1.0";
+
+<div>
+{
+  
+	let $a := "hello"
+	let $b := " world"
+	
+	return concat($a, $b) 
+}
+</div>
+
+--Ejercicio 3 
+xquery version "1.0";
+
+<empresas>
+{
+	for $raosocial in /facturacio/factura/client/raosocial
+	let $empresa := $raosocial/@tipus
+	where $empresa = "empresa"
+	order by number($empresa) ascending
+	return $raosocial
+}
+</empresas>
+
+--Ejercicio 4
+xquery version "1.0";
+
+<empresas>
+{
+	let $facturas := /facturacio/factura
+	return <total>{sum($facturas/total)}</total>
+}
+</empresas>
+
+--Ejercicio 5
+xquery version "1.0";
+
+<empresas>
+{
+	for $raosocial in /facturacio/factura
+	let $tipo := $raosocial/client/raosocial/@tipus
+	where $tipo = "persona"
+	return <total>{sum($raosocial/total)}</total>
+},
+{
+	for $raosocial in /facturacio/factura
+	let $tipo := $raosocial/client/raosocial/@tipus
+	where $tipo = "empresa"
+	return <total>{sum($raosocial/total)}</total>
+}
+</empresas>
+
+--Ejercicio 6 (No va!)
+xquery version "1.0";
+
+<empresas>
+{
+	for $r in /facturacio/factura
+	let $tipo := $r/rebut/linies/producte/descripcio
+	where $tipo = "Porquet de xocolata amb llet"
+	return <total>{$tipo/quantitat * $tipo/preuunitari}</total>
+}
+</empresas>

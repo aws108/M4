@@ -1,0 +1,34 @@
+<classe>
+	<professors>
+		<professor tutor="si">
+			<nom>Gerard</nom>
+			<cognom>Calle</cognom>
+		</professor>
+		<professor>
+			<nom>Laura</nom>
+			<cognom>Villalba</cognom>
+		</professor>
+	</professors>
+	<alumnes>
+		<alumne aprovat="si" delegat="si">
+			<nom >Pere </nom>
+			<cognom>Garcia</cognom>
+			<nota>7</nota>
+		</alumne>
+		<alumne aprovat="si">
+			<nom>Jordi</nom>
+			<cognom>Ferrarons</cognom>
+			<nota>5.5</nota>
+		</alumne>
+		<alumne aprovat="no">
+			<nom>Manel</nom>
+			<cognom>Puigdevall</cognom>
+			<nota>3.75</nota>
+		</alumne>
+		<alumne aprovat="si">
+			<nom>Frederic</nom>
+			<cognom>Pi</cognom>
+			<nota>8.6</nota>
+		</alumne>
+	</alumnes>
+</classe>

@@ -1,0 +1,47 @@
+1.Quin és el cost mig de tots els llibres de la tenda? Per fer-ho, has d'esbrinar el preu total de tots els llibres i dividir-ho entre el nombre total de llibres.
+
+<llibres>
+{
+	sum(for $llibres in //book
+	let $precio := $llibres/price
+	return $precio)
+div
+
+	count(for $total in //book
+	return $total)
+}
+</llibres> 
+
+2. Retorna el títol d'aquells llibres de categoria "web" que tinguin un preu inferior a 40€.
+<llibres>
+{
+	for $llibres in //book
+	let $categoria := $llibres/@category
+	let $precio := $llibres/price
+	where ($categoria ="web" and $precio<=40)
+	return $llibres/title/text()
+}
+</llibres> 
+
+3. Retorna el preu del llibre amb preu més car.
+<llibres>
+{
+	max(for $llibres in //book
+	let $precio := $llibres/price
+	return $precio)
+}
+</llibres> 
+
+4. Retorna les 3 primeres lletres del títol d'aquells llibres escrits l'any 2005.
+<llibres>
+{
+	for $llibres in distinct-values(//book)
+	let $titul := $llibres/title
+	let $any := $llibres/year
+	let $name := (substring($titul,1,3))
+	where $any = 2005
+	return $name
+}
+</llibres> 
+
+5. Retorna el nom d'aquells autors que continguin la cadena de caràcters "th".

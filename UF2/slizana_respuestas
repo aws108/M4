@@ -1,0 +1,10 @@
+
+1) sum(///habitantes) div sum(///km2)
+
+3) cat /estadisticas/estadistica-anionac-sexo/anio-nac[anio_nacimiento>=2000]/hombres
+
+4) cat /estadisticas/padron-nacionalidad-sexo-2014/padron-nacionalidad-sexo-2014/xFEFF_Nacionalidad[contains(., "SIE")]/text()
+
+5) count(/estadisticas/estadistica-barrios-densidad-poblacion/barrio_item[@nombre="SAN"])
+
+6)count (/estadisticas/padron-nacionalidad-sexo-2014/padron-nacionalidad-sexo-2014[xFEFF_Nacionalidad!="ESPAÑA"])
